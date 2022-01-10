@@ -32,6 +32,15 @@ jQuery(document).ready(function($){
         }
     });
 
+    //smooth scroll to anchor
+    $('a[href^="#"][animate]').on('click', function() {
+            var hash = $(this).attr('href');
+            var start_y = $(hash).position().top;
+            var header_offset = 45;
+            window.scroll({ top: start_y - header_offset, left: 0, behavior: 'smooth' });
+            return false;
+    });
+
     //Smooth scroll to start
     $('#to-start').click(function(){
         var start_y = $('#start').position().top;
