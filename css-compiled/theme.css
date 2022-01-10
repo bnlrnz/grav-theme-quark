@@ -148,13 +148,13 @@ form .form-group:not(.form-field-toggleable) .checkboxes label:before { display:
 
 #grav-login .button-wrapper .form-data.rememberme { margin: 0; float: left; }
 
-#grav-login .login-form button[type="submit"] { background: #3085EE; border-color: #227ded; color: #fff; }
+#grav-login .login-form button[type="submit"] { background: #006400; border-color: #227ded; color: #fff; }
 
 #grav-login .login-form button[type="submit"]:focus, #grav-login .login-form button[type="submit"]:hover { background: #1877ec; border-color: #1370e3; color: #fff; }
 
 #grav-login .login-form button[type="submit"]:active, #grav-login .login-form button[type="submit"].active { background: #1372e7; border-color: #126bd9; color: #fff; }
 
-#grav-login .twofa-form button[type="submit"]:first-child { background: #3085EE; border-color: #227ded; color: #fff; float: right; margin-left: 4px; }
+#grav-login .twofa-form button[type="submit"]:first-child { background: #006400; border-color: #227ded; color: #fff; float: right; margin-left: 4px; }
 
 #grav-login .twofa-form button[type="submit"]:first-child:focus, #grav-login .twofa-form button[type="submit"]:first-child:hover { background: #1877ec; border-color: #1370e3; color: #fff; }
 
@@ -184,7 +184,7 @@ form .form-group:not(.form-field-toggleable) .checkboxes label:before { display:
 
 .mobile-menu .button_container.active .bottom { transform: translateY(-8px) translateX(0) rotate(-45deg); background: #FFF; }
 
-.mobile-menu .button_container span { background: #3085EE; border: none; height: 4px; width: 100%; position: absolute; top: 0; left: 0; transition: all .35s ease; cursor: pointer; }
+.mobile-menu .button_container span { background: #006400; border: none; height: 4px; width: 100%; position: absolute; top: 0; left: 0; transition: all .35s ease; cursor: pointer; }
 
 .mobile-menu .button_container span:nth-of-type(2) { top: 8px; }
 
@@ -291,7 +291,7 @@ body.sticky-footer #page-wrapper { -ms-flex: 1 0 auto; flex: 1 0 auto; }
 
 .dropmenu ul li a { text-decoration: none; padding: 7px 30px 7px 20px; display: block; }
 
-.dropmenu ul li a:hover, .dropmenu ul li a:focus, .dropmenu ul li a.active { color: #3085EE !important; }
+.dropmenu ul li a:hover, .dropmenu ul li a:focus, .dropmenu ul li a.active { color: #006400 !important; }
 
 .dropmenu ul li a:before { content: '\f107'; font-family: 'FontAwesome'; display: inline-block; vertical-align: middle; float: right; margin-right: -20px; }
 
@@ -371,7 +371,7 @@ ul.pagination { -ms-flex-pack: center; justify-content: center; }
 
 .modular-features.small .columns { margin-top: -1rem; }
 
-.modular-features.small .column:hover .feature-icon i { color: #3085EE; }
+.modular-features.small .column:hover .feature-icon i { color: #006400; }
 
 .modular-features.small .feature-icon { display: block; -ms-flex-pack: left; justify-content: left; }
 
@@ -387,7 +387,7 @@ ul.pagination { -ms-flex-pack: center; justify-content: center; }
 
 .modular-features .column:hover .feature-icon { color: #acb3c2; }
 
-.modular-features .column:hover .feature-icon h6 { color: #3085EE; }
+.modular-features .column:hover .feature-icon h6 { color: #006400; }
 
 .modular-features .column:hover .feature-content { color: #667189; }
 

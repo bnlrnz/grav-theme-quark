@@ -3,7 +3,7 @@
 
 .form-autocomplete .form-autocomplete-input { -ms-flex-line-pack: start; align-content: flex-start; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; height: auto; min-height: 1.6rem; padding: 0.1rem; }
 
-.form-autocomplete .form-autocomplete-input.is-focused { box-shadow: 0 0 0 0.1rem rgba(48, 133, 238, 0.2); border-color: #3085EE; }
+.form-autocomplete .form-autocomplete-input.is-focused { box-shadow: 0 0 0 0.1rem rgba(48, 133, 238, 0.2); border-color: #006400; }
 
 .form-autocomplete .form-autocomplete-input .form-input { border-color: transparent; box-shadow: none; display: inline-block; -ms-flex: 1 0 auto; flex: 1 0 auto; height: 1.2rem; line-height: 0.8rem; margin: 0.1rem; width: auto; }
 
@@ -29,11 +29,11 @@
 
 .calendar .calendar-date .date-item { -webkit-appearance: none; -moz-appearance: none; appearance: none; background: transparent; border: 0.05rem solid transparent; border-radius: 50%; color: #667189; cursor: pointer; font-size: 0.7rem; height: 1.4rem; line-height: 1rem; outline: none; padding: 0.1rem; position: relative; text-align: center; text-decoration: none; transition: background .2s, border .2s, box-shadow .2s, color .2s; vertical-align: middle; white-space: nowrap; width: 1.4rem; }
 
-.calendar .calendar-date .date-item.date-today { border-color: #d3e5fb; color: #3085EE; }
+.calendar .calendar-date .date-item.date-today { border-color: #d3e5fb; color: #006400; }
 
 .calendar .calendar-date .date-item:focus { box-shadow: 0 0 0 0.1rem rgba(48, 133, 238, 0.2); }
 
-.calendar .calendar-date .date-item:focus, .calendar .calendar-date .date-item:hover { background: #eff5fe; border-color: #d3e5fb; color: #3085EE; text-decoration: none; }
+.calendar .calendar-date .date-item:focus, .calendar .calendar-date .date-item:hover { background: #eff5fe; border-color: #d3e5fb; color: #006400; text-decoration: none; }
 
 .calendar .calendar-date .date-item:active, .calendar .calendar-date .date-item.active { background: #227ded; border-color: #1370e3; color: #fff; }
 
@@ -53,7 +53,7 @@
 
 .calendar .calendar-range.range-start .date-item, .calendar .calendar-range.range-end .date-item { background: #227ded; border-color: #1370e3; color: #fff; }
 
-.calendar .calendar-range .date-item { color: #3085EE; }
+.calendar .calendar-range .date-item { color: #006400; }
 
 .calendar.calendar-lg .calendar-body { padding: 0; }
 
@@ -137,7 +137,7 @@
   75% { width: 1.2rem; }
   100% { width: 0; } }
 
-.filter .filter-tag#tag-0:checked ~ .filter-nav .chip[for="tag-0"], .filter .filter-tag#tag-1:checked ~ .filter-nav .chip[for="tag-1"], .filter .filter-tag#tag-2:checked ~ .filter-nav .chip[for="tag-2"], .filter .filter-tag#tag-3:checked ~ .filter-nav .chip[for="tag-3"], .filter .filter-tag#tag-4:checked ~ .filter-nav .chip[for="tag-4"], .filter .filter-tag#tag-5:checked ~ .filter-nav .chip[for="tag-5"], .filter .filter-tag#tag-6:checked ~ .filter-nav .chip[for="tag-6"], .filter .filter-tag#tag-7:checked ~ .filter-nav .chip[for="tag-7"], .filter .filter-tag#tag-8:checked ~ .filter-nav .chip[for="tag-8"] { background: #3085EE; color: #fff; }
+.filter .filter-tag#tag-0:checked ~ .filter-nav .chip[for="tag-0"], .filter .filter-tag#tag-1:checked ~ .filter-nav .chip[for="tag-1"], .filter .filter-tag#tag-2:checked ~ .filter-nav .chip[for="tag-2"], .filter .filter-tag#tag-3:checked ~ .filter-nav .chip[for="tag-3"], .filter .filter-tag#tag-4:checked ~ .filter-nav .chip[for="tag-4"], .filter .filter-tag#tag-5:checked ~ .filter-nav .chip[for="tag-5"], .filter .filter-tag#tag-6:checked ~ .filter-nav .chip[for="tag-6"], .filter .filter-tag#tag-7:checked ~ .filter-nav .chip[for="tag-7"], .filter .filter-tag#tag-8:checked ~ .filter-nav .chip[for="tag-8"] { background: #006400; color: #fff; }
 
 .filter .filter-tag#tag-1:checked ~ .filter-body .filter-item:not([data-tag~="tag-1"]), .filter .filter-tag#tag-2:checked ~ .filter-body .filter-item:not([data-tag~="tag-2"]), .filter .filter-tag#tag-3:checked ~ .filter-body .filter-item:not([data-tag~="tag-3"]), .filter .filter-tag#tag-4:checked ~ .filter-body .filter-item:not([data-tag~="tag-4"]), .filter .filter-tag#tag-5:checked ~ .filter-body .filter-item:not([data-tag~="tag-5"]), .filter .filter-tag#tag-6:checked ~ .filter-body .filter-item:not([data-tag~="tag-6"]), .filter .filter-tag#tag-7:checked ~ .filter-body .filter-item:not([data-tag~="tag-7"]), .filter .filter-tag#tag-8:checked ~ .filter-body .filter-item:not([data-tag~="tag-8"]) { display: none; }
 
@@ -225,15 +225,15 @@
 
 .parallax .parallax-bottom-right:focus ~ .parallax-content .parallax-front, .parallax .parallax-bottom-right:hover ~ .parallax-content .parallax-front { transform: translate3d(-4.5px, -4.5px, 50px) scale(0.95); }
 
-.progress { -webkit-appearance: none; -moz-appearance: none; appearance: none; background: #f0f1f4; border: 0; border-radius: 0.1rem; color: #3085EE; height: 0.2rem; position: relative; width: 100%; }
+.progress { -webkit-appearance: none; -moz-appearance: none; appearance: none; background: #f0f1f4; border: 0; border-radius: 0.1rem; color: #006400; height: 0.2rem; position: relative; width: 100%; }
 
 .progress::-webkit-progress-bar { background: transparent; border-radius: 0.1rem; }
 
-.progress::-webkit-progress-value { background: #3085EE; border-radius: 0.1rem; }
+.progress::-webkit-progress-value { background: #006400; border-radius: 0.1rem; }
 
-.progress::-moz-progress-bar { background: #3085EE; border-radius: 0.1rem; }
+.progress::-moz-progress-bar { background: #006400; border-radius: 0.1rem; }
 
-.progress:indeterminate { animation: progress-indeterminate 1.5s linear infinite; background: #f0f1f4 linear-gradient(to right, #3085EE 30%, #f0f1f4 30%) top left/150% 150% no-repeat; }
+.progress:indeterminate { animation: progress-indeterminate 1.5s linear infinite; background: #f0f1f4 linear-gradient(to right, #006400 30%, #f0f1f4 30%) top left/150% 150% no-repeat; }
 
 .progress:indeterminate::-moz-progress-bar { background: transparent; }
 
@@ -246,11 +246,11 @@
 
 .slider.tooltip:not([data-tooltip])::after { content: attr(value); }
 
-.slider::-webkit-slider-thumb { -webkit-appearance: none; background: #3085EE; border: 0; border-radius: 50%; height: 0.6rem; margin-top: -0.25rem; transition: transform .2s; width: 0.6rem; }
+.slider::-webkit-slider-thumb { -webkit-appearance: none; background: #006400; border: 0; border-radius: 50%; height: 0.6rem; margin-top: -0.25rem; transition: transform .2s; width: 0.6rem; }
 
-.slider::-moz-range-thumb { background: #3085EE; border: 0; border-radius: 50%; height: 0.6rem; transition: transform .2s; width: 0.6rem; }
+.slider::-moz-range-thumb { background: #006400; border: 0; border-radius: 50%; height: 0.6rem; transition: transform .2s; width: 0.6rem; }
 
-.slider::-ms-thumb { background: #3085EE; border: 0; border-radius: 50%; height: 0.6rem; transition: transform .2s; width: 0.6rem; }
+.slider::-ms-thumb { background: #006400; border: 0; border-radius: 50%; height: 0.6rem; transition: transform .2s; width: 0.6rem; }
 
 .slider:active::-webkit-slider-thumb { transform: scale(1.25); }
 
@@ -270,7 +270,7 @@
 
 .slider::-ms-track { background: #f0f1f4; border-radius: 0.1rem; height: 0.1rem; width: 100%; }
 
-.slider::-ms-fill-lower { background: #3085EE; }
+.slider::-ms-fill-lower { background: #006400; }
 
 .timeline .timeline-item { display: -ms-flexbox; display: flex; margin-bottom: 1.2rem; position: relative; }
 
@@ -282,9 +282,9 @@
 
 .timeline .timeline-item .timeline-icon { -ms-flex-align: center; align-items: center; border-radius: 50%; color: #fff; display: -ms-flexbox; display: flex; height: 1.2rem; -ms-flex-pack: center; justify-content: center; text-align: center; width: 1.2rem; }
 
-.timeline .timeline-item .timeline-icon::before { border: 0.1rem solid #3085EE; border-radius: 50%; content: ""; display: block; height: 0.4rem; left: 0.4rem; position: absolute; top: 0.4rem; width: 0.4rem; }
+.timeline .timeline-item .timeline-icon::before { border: 0.1rem solid #006400; border-radius: 50%; content: ""; display: block; height: 0.4rem; left: 0.4rem; position: absolute; top: 0.4rem; width: 0.4rem; }
 
-.timeline .timeline-item .timeline-icon.icon-lg { background: #3085EE; line-height: 1.2rem; }
+.timeline .timeline-item .timeline-icon.icon-lg { background: #006400; line-height: 1.2rem; }
 
 .timeline .timeline-item .timeline-icon.icon-lg::before { content: none; }
 
